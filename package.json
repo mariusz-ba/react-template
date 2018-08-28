@@ -1,7 +1,7 @@
 {
   "name": "react-template",
   "version": "1.0.0",
-  "description": "Simple template for only frontend react apps for quicker start",
+  "description": "Simple template for react apps for quicker start",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server -d --config webpack/webpack.dev.js --content-base dist/ --inline --hot",
