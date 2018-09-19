@@ -1,0 +1,5 @@
+.container {
+  @include themify($themes) {
+    background-color: themed('backgroundColor');
+  }
+}

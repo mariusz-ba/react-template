@@ -4,8 +4,7 @@ module.exports = {
   entry: ['babel-polyfill', path.join(__dirname, '../src/index.jsx')],
   output: {
     filename: 'bundle.js',
-    path: path.join(__dirname, '../dist'),
-    publicPath: '/'
+    path: path.join(__dirname, '../dist')
   },
   module: {
     rules: [
@@ -17,11 +16,7 @@ module.exports = {
     ]
   },
   resolve: {
-    extensions: ['.js', '.jsx'],
-    alias: {
-      '@components': path.resolve(__dirname, '../src/components'),
-      '@modules': path.resolve(__dirname, '../src/modules')
-    }
+    extensions: ['.js', '.jsx']
   },
   devServer: {
     historyApiFallback: true
